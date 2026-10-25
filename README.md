@@ -14,11 +14,12 @@
 
 ## 🌐 Live Demo & Acceso de Prueba en Vivo
 
-El sistema se encuentra desplegado y plenamente operativo en producción para pruebas interactivas:
+El sistema se encuentra desplegado y plenamente operativo para pruebas interactivas en el portal oficial de la agencia y servidores dedicados:
 
-* 🔗 **URL de la Plataforma Demo:** **[https://silver-emu-794595.hostingersite.com/](https://silver-emu-794595.hostingersite.com/)**
+* 🚀 **Live Demo Nativo en LoNet Solutions:** **[https://lonetsolutions.com/demo/pos/](https://lonetsolutions.com/demo/pos/)** (Sandbox 100% independiente con persistencia en navegador)
 * 🏢 **Portal de la Agencia:** **[https://lonetsolutions.com/](https://lonetsolutions.com/)**
 * 🎫 **Mesa de Soporte Oficial:** **[https://lonetsolutions.com/soporte/](https://lonetsolutions.com/soporte/)**
+* 🔗 **Plataforma Servidor Hostinger:** **[https://silver-emu-794595.hostingersite.com/](https://silver-emu-794595.hostingersite.com/)**
 
 ### 🔑 Credenciales de Acceso Sandbox
 
