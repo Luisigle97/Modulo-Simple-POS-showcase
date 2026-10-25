@@ -144,40 +144,6 @@ El proyecto cuenta con una arquitectura diseñada para operar de dos formas seg�
   │   Modern HTML5   │                           │   MySQL / MariaDB   │
   └──────────────────┘                           └─────────────────────┘
 ```
-
----
-
-## 🚀 Despliegue e Instalación
-
-### Opción A: Entorno Python / FastAPI (Desarrollo Local o Servidor VPS)
-
-1. Clonar el repositorio:
-   ```bash
-   git clone https://github.com/Luisigle97/Modulo-Simple-POS.git
-   cd Modulo-Simple-POS
-   ```
-2. Instalar dependencias en el entorno virtual:
-   ```bash
-   python -m venv .venv
-   source .venv/bin/activate  # En Windows: .venv\Scripts\activate
-   pip install -r backend/requirements.txt
-   ```
-3. Iniciar el servidor FastAPI:
-   ```bash
-   cd backend
-   uvicorn main:app --host 0.0.0.0 --port 8000 --reload
-   ```
-4. Abrir en el navegador: `http://localhost:8000/`
-
-### Opción B: Entorno PHP / MySQL (Hosting Compartido como Hostinger)
-
-1. Crear una base de datos MySQL en su panel de hosting.
-2. Subir los archivos contenidos en `hostinger-deploy/` a la carpeta `public_html/`.
-3. Configurar las credenciales en `api/config.php` (o variables de entorno).
-4. El sistema inicializará automáticamente el esquema de tablas y los usuarios por defecto.
-
----
-
 ## 🤝 Soporte Técnico, Consultoría & Desarrollo a Medida
 
 ¿Necesita implementar este punto de venta en su establecimiento comercial o requiere una solución a medida adaptada a la dinámica de su empresa?
