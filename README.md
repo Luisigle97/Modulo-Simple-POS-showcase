@@ -19,7 +19,6 @@ El sistema se encuentra desplegado y plenamente operativo para pruebas interacti
 * 🚀 **Live Demo Nativo en LoNet Solutions:** **[https://lonetsolutions.com/demo/pos/](https://lonetsolutions.com/demo/pos/)** (Sandbox 100% independiente con persistencia en navegador)
 * 🏢 **Portal de la Agencia:** **[https://lonetsolutions.com/](https://lonetsolutions.com/)**
 * 🎫 **Mesa de Soporte Oficial:** **[https://lonetsolutions.com/soporte/](https://lonetsolutions.com/soporte/)**
-* 🔗 **Plataforma Servidor Hostinger:** **[https://silver-emu-794595.hostingersite.com/](https://silver-emu-794595.hostingersite.com/)**
 
 ### 🔑 Credenciales de Acceso Sandbox
 
