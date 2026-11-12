@@ -99,7 +99,7 @@ En **LoNet Solutions** personalizamos nombre comercial, logotipo en cabecera y t
 
 ---
 
-## 🏗️ Arquitectura Dual Stack (Local & Nube Hostinger)
+## 🏗️ Arquitectura Dual Stack (Local & Nube Hosting)
 
 ```
 ┌────────────────────────────────────────────────────────────────────────┐
@@ -112,7 +112,7 @@ En **LoNet Solutions** personalizamos nombre comercial, logotipo en cabecera y t
   │  Tailwind + Lucide│                           │  SQLite WAL + Excel │
   └──────────────────┘                           └─────────────────────┘
 
-  [Opción 2: Web Hosting Compartido / Hostinger — /demo/pos/]
+  [Opción 2: Web Hosting Compartido / Hosting — /demo/pos/]
   ┌──────────────────┐       JSON REST API       ┌─────────────────────┐
   │  Frontend HTML5  │ ◄───────────────────────► │  PHP 8.x PDO Router │
   │  Branding Dinámico│                           │  SQLite 3 Local     │
