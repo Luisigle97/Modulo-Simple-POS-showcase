@@ -1,151 +1,130 @@
-# 🛒 Simple POS — Software de Punto de Venta & Facturación a Medida
+# 🛒 Simple POS — Software de Punto de Venta, Mesas, Comandas & Control Comercial
 
 <p align="center">
   <img src="https://img.shields.io/badge/Estado-Producci%C3%B3n%20Activa-10b981?style=for-the-badge&logo=statuspage&logoColor=white" alt="Producción Activa">
-  <img src="https://img.shields.io/badge/Live%20Demo-Hostinger-38bdf8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Demo Hostinger">
+  <img src="https://img.shields.io/badge/Live%20Demo-lonetsolutions.com-38bdf8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Demo">
   <img src="https://img.shields.io/badge/Desarrollado%20Por-LoNet%20Solutions-f59e0b?style=for-the-badge&logo=shield&logoColor=white" alt="LoNet Solutions">
-  <img src="https://img.shields.io/badge/Arquitectura-Dual%20Stack-6366f1?style=for-the-badge&logo=fastapi&logoColor=white" alt="Dual Stack">
-  <img src="https://img.shields.io/badge/Dise%C3%B1o-Frontend%20Design-ec4899?style=for-the-badge&logo=figma&logoColor=white" alt="Frontend Design">
+  <img src="https://img.shields.io/badge/Arquitectura-FastAPI%20%2B%20PHP%208%20SQLite-6366f1?style=for-the-badge&logo=sqlite&logoColor=white" alt="Dual Stack">
+  <img src="https://img.shields.io/badge/UX-Responsive%20%3C1200px%20Card--List-ec4899?style=for-the-badge" alt="Responsive UX">
 </p>
 
-> **Sistema de Punto de Venta (POS), control de inventario, arqueo de caja registradora, facturación térmica y auditoría de transacciones**, desarrollado por **[LoNet Solutions](https://lonetsolutions.com/)**. Diseñado para operar de forma ultrarrápida, sin retrasos, con arquitectura adaptable tanto para servidores locales/nube como para hosting compartido optimizado.
+> **Plataforma POS de alta velocidad con Control Visual de Mesas, Comandas Móviles por Wi-Fi, Monitor KDS Cocina & Barra, Pago Individual / División de Cuentas, Auditoría Forense, Rendimiento de Meseros, Gestión de Imágenes y Arqueo de Caja Z**, desarrollada por **[LoNet Solutions](https://lonetsolutions.com/)**. Arquitectura Dual Stack adaptable tanto para operación local offline (`FastAPI + SQLite WAL`) como para despliegue web en hosting compartido (`PHP 8 + SQLite`).
 
 ---
 
-## 🌐 Live Demo & Acceso de Prueba en Vivo
+## 🌐 Ecosistema, Live Demo & Repositorios
 
-El sistema se encuentra desplegado y plenamente operativo para pruebas interactivas en el portal oficial de la agencia y servidores dedicados:
-
-* 🚀 **Live Demo Nativo en LoNet Solutions:** **[https://lonetsolutions.com/demo/pos/](https://lonetsolutions.com/demo/pos/)** (Sandbox 100% independiente con persistencia en navegador)
+* 🚀 **Live Demo Interactivo (Marca Dinámica):** **[https://lonetsolutions.com/demo/pos/](https://lonetsolutions.com/demo/pos/)** — Sandbox comercial completo configurable con `[Nombre de tu Negocio]` y logotipo en cabecera y tirillas.
+* 💻 **Código Base Oficial (Producción):** **[https://github.com/Luisigle97/Simple-Pos-Restaurante](https://github.com/Luisigle97/Simple-Pos-Restaurante)**
+* 🎨 **Showcase Público:** **[https://github.com/Luisigle97/Modulo-Simple-POS-showcase](https://github.com/Luisigle97/Modulo-Simple-POS-showcase)**
 * 🏢 **Portal de la Agencia:** **[https://lonetsolutions.com/](https://lonetsolutions.com/)**
 * 🎫 **Mesa de Soporte Oficial:** **[https://lonetsolutions.com/soporte/](https://lonetsolutions.com/soporte/)**
 
-### 🔑 Credenciales de Acceso Sandbox
+### 🔑 Credenciales de Acceso Demo / Pruebas
 
-| Rol de Usuario | Nombre de Usuario | Contraseña | Capacidades y Alcance |
+| Rol de Usuario | Usuario | Contraseña | Capacidades y Alcance |
 | :--- | :--- | :--- | :--- |
-| **Administrador** | `admin` | `admin123` | Control total: Apertura/cierre de caja, inventario, reportes de ventas, auditoría de cuentas, gestión de usuarios. |
-| **Vendedor / Cajero** | `vendedor` | `vendedor123` | Terminal ágil: Registro de ventas, consulta de catálogo, emisión de facturas y visualización de su turno. |
+| 👑 **Super Admin** | `admin` | `admin123` | Control total: Mesas, POS, Finanzas, Rendimiento de Meseros y Liquidación de Propinas, Auditoría, Gestión de Imágenes, Compras, Gastos, Usuarios y Excel. |
+| 🧾 **Cajero / Barra** | `cajero` | `cajero123` | Mapa de mesas, cobro completo e individual/dividido, POS Rápido, Caja Z + Datáfono, KDS Cocina & Barra, historial de tickets y pausa rápida de platos agotados. |
+| 📱 **Mesero Móvil** | `mesero` | `mesero123` | Toma de comandas por rondas con notas táctiles, mapa visual de mesas en tiempo real, pre-cuenta con divisor `÷ N` y solicitud de cuenta sin acceso a caja ni costos. |
 
 ---
 
-## 🎯 100% Personalizable a Medida para su Negocio
+## 🎯 100% Personalizable a Medida (Marca Blanca & Multi-Sector)
 
-En **LoNet Solutions** entendemos que ningún negocio opera exactamente igual que otro. Por ello, **Simple POS** no es un software rígido ni una plantilla genérica: **adaptamos y personalizamos la lógica operativa, flujos de cobro, tipos de venta e integraciones a los requerimientos específicos de cada punto de venta:**
+En **LoNet Solutions** personalizamos nombre comercial, logotipo en cabecera y tirillas térmicas, zonas de atención, flujos de cocina/barra, impuestos y reglas de negocio según cada cliente:
 
 ```
   ┌──────────────────────────────────────────────────────────────────┐
   │         ADAPTABILIDAD SECTORIAL A MEDIDA (LoNet Solutions)        │
   └──────────────────────────────────────────────────────────────────┘
          │
+         ├── 🍽️ Restaurantes, Clubes de Playa & Gastrobares
+         │    ├── Mapa visual de mesas por zonas (LIBRE, OCUPADA, CUENTA, RESERVADA)
+         │    ├── Comandas móviles por rondas vía Wi-Fi QR sin instalar apps
+         │    ├── Monitor KDS Cocina & Barra FIFO con semáforos y timbre
+         │    └── Pago individual / división de cuentas (Por Ítems o Partes Iguales)
+         │
          ├── 🍸 Licoreras, Bares & Discotecas
-         │    ├── Venta fraccionada (Tragos / Copas / Botellas)
-         │    ├── Control estricto de mermas y descorche
-         │    ├── Cuentas abiertas y cobro por comandas
-         │    └── Promociones dinámicas (2x1, Happy Hours)
+         │    ├── Venta rápida por mostrador, barra o domicilio (POS Rápido)
+         │    ├── Control estricto de stock físico por botellas, cervezas y licores
+         │    ├── Pausa inmediata Disponible / Agotado en tiempo real
+         │    └── Datáfono configurable, pagos mixtos y cierre de lote
          │
-         ├── 🍽️ Restaurantes, Cafeterías & Pizzerías
-         │    ├── Mapa interactivo de mesas y zonas
-         │    ├── Impresión dividida de comandas a cocina y barra
-         │    ├── Cuentas separadas por comensal
-         │    └── Gestión de adiciones, ingredientes y propinas
+         ├── 🛒 Minimarkets, Tiendas & Cafeterías
+         │    ├── Buscador predictivo con auto-reset inteligente de categoría
+         │    ├── Selector desplegable de categorías unificado (Móvil, Tablet y PC)
+         │    ├── Cálculo automático de devuelta en efectivo e IVA / Impoconsumo
+         │    └── Arqueo de caja con Reporte Z e impresión térmica 80mm / WhatsApp
          │
-         ├── 🛒 Minimarkets, Tiendas de Abarrotes & Supermercados
-         │    ├── Soporte nativo para lectores de código de barras (USB/Bluetooth)
-         │    ├── Conexión con balanzas y básculas para venta por gramaje/peso
-         │    ├── Alertas visuales de stock mínimo y reposición urgente
-         │    └── Venta a granel y empaquetados
-         │
-         ├── 🔧 Ferreterías, Tiendas de Repuestos & Construcción
-         │    ├── Búsqueda inteligente por código OEM, referencia técnica o marca
-         │    ├── Conversión automática de unidades (metros, pulgadas, kilos, cajas)
-         │    ├── Manejo de listas de precios mayorista, técnico y público general
-         │    └── Generación de cotizaciones previas antes de facturar
-         │
-         ├── 💊 Droguerías & Farmacias
-         │    ├── Trazabilidad de lotes y fechas de expiración
-         │    ├── Buscador alternativo por principio activo (Genérico vs Comercial)
-         │    └── Control de fórmulas médicas y despacho asistido
-         │
-         └── 👗 Tiendas de Ropa, Calzado & Boutiques
-              ├── Matrices multidimensionales (Talla / Color / Colección)
-              ├── Gestión de cambios, notas de crédito y devoluciones
-              └── Etiquetas de precio con código de barras propio
+         └── ⚙️ Administración, Nómina de Propinas & Auditoría
+              ├── Podio Top 3 de Meseros, KPIs y liquidación de propinas Efectivo vs Electrónico
+              ├── Bitácora forense con motivo obligatorio en anulaciones y eliminaciones
+              ├── Gestor visual de fotografías por producto (Drag & Drop JPG/PNG/WEBP)
+              └── Identidad dinámica ([Nombre de tu Negocio] + Logo) en cabecera y tickets
 ```
 
 ---
 
-## 🌟 Características Técnicas y Módulos Principales
+## 🌟 Características Técnicas y Módulos Actualizados
 
-### ⚡ 1. Terminal de Ventas de Alta Velocidad (POS)
-* **Búsqueda Instantánea:** Filtrado en tiempo real por nombre, categoría o código sin recargas de página.
-* **Carrito Dinámico:** Adición inmediata con un solo clic, ajuste de cantidades por teclado o botones táctiles, y advertencia automática si la cantidad solicitada supera el stock disponible.
-* **Múltiples Métodos de Pago:** Cobro en Efectivo con cálculo de cambio, Tarjeta débito/crédito, Transferencia bancaria (Nequi, Daviplata, Bancolombia) o Pago Mixto.
-* **Facturación Imprimible:** Generación de recibo/factura con desglose completo de productos, impuestos, medio de pago, fecha, cajero responsable y número de comprobante. Compatible con impresoras térmicas (58mm / 80mm) y formatos estándar.
+### 🗺️ 1. Control Visual de Mesas & Comandas Móviles (`Wi-Fi QR`)
+* Mapa por zonas con actualización automática (~2.5s), estados codificados por color (`LIBRE`, `OCUPADA`, `💳 CUENTA` titilando, `RESERVADA`), contador de tiempo (`⏱ Xm`) y transferencia entre mesas libres.
+* Flujo optimizado para meseros desde teléfono o tablet: rondas incrementales (`Ronda #1`, `Ronda #2`), notas rápidas táctiles, pre-cuenta y divisor rápido `÷ N`.
 
-### 💰 2. Control Integral de Caja Registradora (Cash Management)
-* **Apertura de Caja con Base Inicial:** Registro obligatorio del monto de dinero base con el que inicia operaciones el cajero.
-* **Control de Movimientos:** Entrada y salida de efectivo para gastos menores o pagos a proveedores con motivo documentado.
-* **Arqueo y Cierre de Caja:** Comparativa entre ventas registradas por sistema y el dinero físico contado, detectando faltantes o sobrantes de forma automática.
+### 🔥 2. Monitor KDS Cocina & Barra FIFO
+* Tickets agrupados por mesa y ronda, con filtro por estación (`Todos`, `🔥 Cocina`, `🍹 Barra`), alertas cromáticas a 10 y 20 minutos y timbre sonoro opcional.
+* Progresión en un toque: **`🔥 Empezar`** → **`✅ ¡Listo!`** → **`🍽️ Entregado`**.
 
-### 📦 3. Gestión Inteligente de Inventario & Catálogo
-* Creación, edición y categorización de productos con precio de venta, costo y stock disponible.
-* Badges de alerta por **Stock Bajo** para evitar quiebres de inventario no anticipados.
-* Modales limpios para reabastecimiento o corrección rápida de existencias.
+### 💳 3. Cobro de Mesas, Cuentas Separadas & Datáfono Configurable
+* **Cobro Completo o Individual / Dividido:** liquidación **`Por Ítems`** (seleccionando cantidades exactas por comensal) o **`Partes Iguales / Monto Libre`**, generando tickets independientes hasta liberar automáticamente la mesa al saldar el 100%.
+* **Medios de Pago:** `Efectivo` con devuelta automática, `Nequi / Daviplata`, `💳 Datáfono`, `Transferencia` y `🔀 Pago Mixto`.
+* **Conector Datáfono:** **Simulador Local**, **Webhook / API Externa (HMAC)** o **Asistido Manual**, con captura de voucher, franquicia, últimos 4 dígitos y control de comisiones/retención bancaria.
 
-### 📋 4. Historial de Auditoría & Trazabilidad Inmutable
-* Registro cronológico de todas las transacciones realizadas en la plataforma.
-* Rastreo de usuario responsable, fecha/hora exacta, tipo de operación (Venta, Apertura, Movimiento de Caja, Ajuste de Inventario) y montos asociados.
-* Filtros de consulta para inspecciones financieras y conciliación contable.
+### 📱 4. POS Rápido Rediseñado & UX Responsive (`< 1200px` sin Scroll Horizontal)
+* **POS Rápido táctil:** interfaz móvil y tablet en pestañas limpias (*Catálogo* / *Pedido*) con barra inferior adhesiva (*sticky bar*) y selector desplegable unificado de categorías también en escritorio (`>= 1200px`). Al buscar por texto, el filtro vuelve automáticamente a **`Todos`**.
+* **Card-List Layout:** todas las tablas operativas (*Carta & Stock*, *Meseros*, *Auditoría*) se transforman en tarjetas verticales estructuradas en móvil y tablet con áreas táctiles mínimas de `44x44px`.
+* **Modales Seguros y Personalizados:** menú principal en `< 1200px` con accesos rápidos y enlaces a LoNet Solutions, manual interactivo con selector desplegable y modal de confirmación personalizado (`#modal-confirm`) para acciones críticas.
 
-### 📊 5. Panel de Métricas & Reportes
-* Indicadores clave de rendimiento (KPIs): Total vendido en la jornada, ticket promedio, cantidad de transacciones, producto más vendido y medio de pago predominante.
-* Histórico mensual de ventas para análisis comparativo de ingresos.
+### 🖼️ 5. Carta, Stock Inteligente & Gestión de Imágenes por Producto
+* Distinción entre platos **Preparados al momento** y productos con **Control de stock físico** (restauración automática ante anulaciones o devoluciones).
+* **Gestor Drag & Drop de Fotografías:** carga `JPG`, `PNG` o `WEBP` (hasta 5 MB) con validación de firma real (*magic bytes*), vista previa cuadrada `aspect-square` y eliminación segura que limpia archivos huérfanos en servidor.
 
----
+### 🏆 6. Rendimiento de Meseros, Podio Top 3 & Liquidación de Propinas (`Admin`)
+* Filtros por período (**`Hoy`**, **`Esta semana`**, **`Este mes`**, **`Personalizado`**), **Podio Top 3**, ticket promedio y desglose exacto de propinas en **Efectivo vs Electrónico**.
+* Flujo de **Liquidación de Propinas** (`PENDIENTE → ENTREGADA`), historial de entregas y exportación en Excel.
 
-## 🎨 Identidad Visual & Frontend Design
-
-La interfaz del software fue construida siguiendo los estándares de **Frontend Design** de alta gama, alejándose de los patrones genéricos de plantillas prediseñadas:
-
-* **Paleta Cromática Obsidian & Malt Gold:**
-  * Fondo base: Obsidian Slate `#090d16` y `#0d1424`.
-  * Acentos de lujo: Malt Gold `#f59e0b` y `#fbbf24` con resplandores sutiles en ámbar.
-  * Estados funcionales: Esmeralda `#10b981` (ventas exitosas/aprobadas), Rubí `#ef4444` (alertas de stock y bajas de caja), Cian `#38bdf8` (información del sistema).
-* **Tipografía Editorial:**
-  * Títulos y encabezados: `Outfit` (alta legibilidad geométrica).
-  * Textos y cuerpo de datos: `Plus Jakarta Sans`.
-  * Valores monetarios, facturas y códigos: `JetBrains Mono` con tabulación numérica uniforme.
-* **100% Responsive & Adaptable a Móvil:**
-  * Totalmente utilizable desde teléfonos inteligentes (Android / iOS) de meseros y cajeros ambulantes.
-  * Disposición optimizada para tablets de mostrador y monitores táctiles de punto de venta.
+### 🛡️ 7. Auditoría Forense & Trazabilidad (`Admin`)
+* Registro automático con metadata estructurada de **Apertura de Caja**, **Cierre / Arqueo Z**, **Anulaciones con motivo obligatorio**, **Eliminaciones de comandas/registros**, **Descuentos manuales**, **Cambios de precio**, **Liquidación de propinas** y **Gestión de imágenes**.
+* Filtros combinados por **rango de fechas**, **usuario**, **tipo de evento** y **buscador rápido**.
 
 ---
 
-## 🏗️ Arquitectura Dual Stack (Híbrida)
-
-El proyecto cuenta con una arquitectura diseñada para operar de dos formas según la infraestructura del cliente:
+## 🏗️ Arquitectura Dual Stack (Local & Nube Hostinger)
 
 ```
 ┌────────────────────────────────────────────────────────────────────────┐
 │                        ARQUITECTURA DUAL STACK                         │
 └────────────────────────────────────────────────────────────────────────┘
 
-  [Opción 1: Servidores Dedicados / Cloud / Local]
+  [Opción 1: Local Wi-Fi Offline / Servidor VPS — Simple-Pos-Restaurante]
   ┌──────────────────┐       JSON REST API       ┌─────────────────────┐
-  │   Frontend Web   │ ◄───────────────────────► │  Python / FastAPI   │
-  │   Modern HTML5   │                           │  SQLite / Postgres  │
+  │  Frontend HTML5  │ ◄───────────────────────► │  Python / FastAPI   │
+  │  Tailwind + Lucide│                           │  SQLite WAL + Excel │
   └──────────────────┘                           └─────────────────────┘
 
-  [Opción 2: Web Hosting Compartido / Hostinger / Apache / LiteSpeed]
+  [Opción 2: Web Hosting Compartido / Hostinger — /demo/pos/]
   ┌──────────────────┐       JSON REST API       ┌─────────────────────┐
-  │   Frontend Web   │ ◄───────────────────────► │   PHP 8.x Router    │
-  │   Modern HTML5   │                           │   MySQL / MariaDB   │
+  │  Frontend HTML5  │ ◄───────────────────────► │  PHP 8.x PDO Router │
+  │  Branding Dinámico│                           │  SQLite 3 Local     │
   └──────────────────┘                           └─────────────────────┘
 ```
+
+---
+
 ## 🤝 Soporte Técnico, Consultoría & Desarrollo a Medida
 
-¿Necesita implementar este punto de venta en su establecimiento comercial o requiere una solución a medida adaptada a la dinámica de su empresa?
+¿Necesita implementar este punto de venta en su restaurante, bar o comercio con facturación personalizada?
 
 * 🏢 **Empresa:** **LoNet Solutions**
 * 🌐 **Sitio Web Oficial:** [https://lonetsolutions.com](https://lonetsolutions.com)
@@ -157,5 +136,5 @@ El proyecto cuenta con una arquitectura diseñada para operar de dos formas seg�
 ---
 
 <p align="center">
-  <sub>Desarrollado con dedicación e ingeniería de software de alto impacto por <strong>LoNet Solutions</strong> © 2026. Todos los derechos reservados.</sub>
+  <sub>Desarrollado por <strong>LoNet Solutions</strong> © 2026. Todos los derechos reservados.</sub>
 </p>
