@@ -15,7 +15,6 @@
 ## 🌐 Ecosistema, Live Demo & Repositorios
 
 * 🚀 **Live Demo Interactivo (Marca Dinámica):** **[https://lonetsolutions.com/demo/pos/](https://lonetsolutions.com/demo/pos/)** — Sandbox comercial completo configurable con `[Nombre de tu Negocio]` y logotipo en cabecera y tirillas.
-* 💻 **Código Base Oficial (Producción):** **[https://github.com/Luisigle97/Simple-Pos-Restaurante](https://github.com/Luisigle97/Simple-Pos-Restaurante)**
 * 🎨 **Showcase Público:** **[https://github.com/Luisigle97/Modulo-Simple-POS-showcase](https://github.com/Luisigle97/Modulo-Simple-POS-showcase)**
 * 🏢 **Portal de la Agencia:** **[https://lonetsolutions.com/](https://lonetsolutions.com/)**
 * 🎫 **Mesa de Soporte Oficial:** **[https://lonetsolutions.com/soporte/](https://lonetsolutions.com/soporte/)**
